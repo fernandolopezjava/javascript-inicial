@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Validación de interfase</title>
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+    <h1>Validación de interfase</h1>
+
+
+    <form action="proceso.php" method="post" onsubmit="return validar()">
+        Nombre: <br>
+        <input type="text" name="nombre">
+        <br>
+        <span id="errorNombre"></span>
+        <br>
+
+        Email: <br>
+        <input type="email" name="email">
+        <br>
+        <span id="errorEmail"></span>
+        <br>
+
+        <button>Enviar</button>
+    </form>
+
+    <script src="js/formulario.js"></script>
+</body>
+</html>

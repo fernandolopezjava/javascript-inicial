@@ -1,0 +1,33 @@
+body{
+    background-color: #d9d9d9;
+    font-family: Helvetica;
+    color: #666;
+}
+
+#caja{
+    width: 200px;
+    height: 95px;
+    background-color: #666;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+a{
+    color: #019995;
+    text-decoration: none;
+    padding: 4px;
+}
+a:hover{
+    color: #01aca8;
+    text-decoration: underline;
+}
+.producto{
+    display: inline-block;
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #01aca8;
+}
+.producto button{
+    padding: 10px;
+}
