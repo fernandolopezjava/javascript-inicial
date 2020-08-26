@@ -1,0 +1,33 @@
+javascript
+
+     para interactividad
+
+     MODIFICAR EL DOM
+
+        modificar algun atributo
+        modificar el contenido
+        crear nuevos elementos
+
+
+     se usa dot syntax
+
+    variables
+        se utiliza la palabra var
+        se utiliza la palabra let
+
+    funciones
+        se utiliza la palabra function
+
+
+
+    guardar en memoria
+
+        1 dato  -> variable
+
+        varias instrucciones -> funciones
+
+
+
+    tarea:   cuando pulso el link,
+            mostrar en el figure la imágen de un dado
+               (tirar el dado)

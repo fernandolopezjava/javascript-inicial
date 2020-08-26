@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cambiar Imagen</title>
+</head>
+<body>
+    <h1>Cambiar Imagen</h1>
+
+    <a href="#" onclick="ok()">ok</a>
+    <a href="#" onclick="error()">error</a>
+    <br>
+    <img src="imagenes/logojs.png" id="logo" style="width:128px">
+
+    <script>
+        // ubicar elemento dentro del DOM
+        var logo = document.getElementById('logo');
+
+        function ok()
+        {
+            logo.src = 'imagenes/ok.png';
+        }
+        function error()
+        {
+            logo.src = 'imagenes/error.png';
+        }
+
+    </script>
+</body>
+</html>
